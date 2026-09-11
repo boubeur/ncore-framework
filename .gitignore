@@ -1,0 +1,9 @@
+*
+!/.gitignore
+!/README.md
+!/LICENSE.md
+!/assets/
+/assets/*
+!/assets/branding/
+/assets/branding/*
+!/assets/branding/ncore-logo.jpg

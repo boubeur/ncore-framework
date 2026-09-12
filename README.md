@@ -4,7 +4,7 @@
 
 <h1 align="center">NCore Framework &amp; NCore Control</h1>
 
-<p align="center"><strong>Un launcher pour installer et gérer votre serveur nanos world. Un Framework accompagné de ses scripts officiels pour construire votre serveur RP.</strong></p>
+<p align="center"><strong>Un launcher pour installer et gérer vos serveurs nanos world. Un Framework accompagné de ses scripts officiels pour construire votre serveur RP.</strong></p>
 
 <p align="center">
   <a href="https://github.com/boubeur/ncore-framework/releases">Releases officielles</a> ·
@@ -14,9 +14,11 @@
 
 ## NCore Control
 
-**NCore Control** centralise l’installation, la configuration, le démarrage et les mises à jour d’un serveur nanos world dans une interface dédiée.
+**NCore Control** centralise l’installation, la désinstallation, la configuration, le démarrage et les mises à jour d’un ou plusieurs serveurs nanos world dans une interface dédiée.
 
-Il accompagne notamment le choix du dossier d’installation, le nom du serveur, sa configuration et la gestion des composants NCore compatibles.
+**La bêta privée actuelle permet déjà d’installer, de désinstaller et de démarrer plusieurs serveurs distincts, y compris simultanément.** Chaque serveur reste géré comme une instance indépendante depuis NCore Control.
+
+Il accompagne notamment le choix du dossier d’installation, le nom de chaque serveur, sa configuration et la gestion des composants NCore compatibles.
 
 Deux parcours sont proposés :
 
@@ -25,7 +27,7 @@ Deux parcours sont proposés :
 | **Serveur nanos world simple** | Préparer un serveur nanos world avec les éléments nécessaires à son lancement. |
 | **Serveur NCore Framework** | Installer le socle RP NCore et les composants sélectionnés pour construire un serveur complet. |
 
-NCore Control est un produit NCore conçu pour simplifier le déploiement et la maintenance d’un serveur nanos world.
+NCore Control est un produit NCore conçu pour simplifier le déploiement et la maintenance de serveurs nanos world.
 
 ## NCore Framework
 

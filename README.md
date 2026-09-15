@@ -4,7 +4,7 @@
 
 <h1 align="center">NCore Framework &amp; NCore Control</h1>
 
-<p align="center"><strong>Un launcher pour installer et gérer vos serveurs nanos world. Un Framework accompagné de ses scripts officiels pour construire votre serveur RP.</strong></p>
+<p align="center"><strong>Un écosystème modulaire pour installer, gérer et développer des serveurs RP sur NANOS / nanos world.</strong></p>
 
 <p align="center">
   <a href="https://github.com/boubeur/ncore-framework/releases">Releases officielles</a> ·
@@ -12,58 +12,64 @@
   <a href="LICENSE.md">Mentions de droits</a>
 </p>
 
-## NCore Control
+## NCore Control 1.0.0
 
-**NCore Control** centralise l’installation, la désinstallation, la configuration, le démarrage et les mises à jour d’un ou plusieurs serveurs nanos world dans une interface dédiée.
+**NCore Control** est l'application Windows officielle NCore destinée à installer et gérer des serveurs NANOS / nanos world.
 
-**La bêta privée actuelle permet déjà d’installer, de désinstaller et de démarrer plusieurs serveurs distincts, y compris simultanément.** Chaque serveur reste géré comme une instance indépendante depuis NCore Control.
+La version **1.0.0** constitue la première version publique de NCore Control. Les binaires officiels sont distribués exclusivement via les **Releases officielles** de ce dépôt.
 
-Il accompagne notamment le choix du dossier d’installation, le nom de chaque serveur, sa configuration et la gestion des composants NCore compatibles.
+### Installation
 
-Deux parcours sont proposés :
+Dans la release `control-v1.0.0`, téléchargez :
 
-| Choix | Objectif |
-| --- | --- |
-| **Serveur nanos world simple** | Préparer un serveur nanos world avec les éléments nécessaires à son lancement. |
-| **Serveur NCore Framework** | Installer le socle RP NCore et les composants sélectionnés pour construire un serveur complet. |
+`NCore-Control-Setup-1.0.0.exe`
 
-NCore Control est un produit NCore conçu pour simplifier le déploiement et la maintenance de serveurs nanos world.
+Puis double-cliquez sur l'installateur. Aucune extraction manuelle du package de mise à jour n'est nécessaire.
+
+NCore Control s'installe dans le profil Windows de l'utilisateur, crée un raccourci `NCore Control` sur le Bureau et s'enregistre dans **Applications installées** de Windows.
+
+### Fonctions disponibles dans la V1.0.0
+
+- installation d'un serveur NANOS / nanos world standard ;
+- gestion de plusieurs serveurs indépendants ;
+- démarrage et arrêt des serveurs ;
+- création d'un raccourci Bureau propre à chaque serveur ;
+- suppression ciblée d'un serveur et de son raccourci ;
+- gestion de la mise à jour de NCore Control ;
+- désinstallation de NCore Control depuis Windows ;
+- conservation des serveurs NANOS existants lors de la désinstallation de NCore Control.
+
+L'installation automatique de **NCore Framework** depuis NCore Control n'est pas activée dans cette première version publique.
+
+### Désinstallation
+
+Utilisez :
+
+`Paramètres Windows > Applications installées > NCore Control > Désinstaller`
+
+La désinstallation retire NCore Control et son raccourci global. Elle ne supprime pas automatiquement les serveurs NANOS existants ni leurs données. Une réinstallation ultérieure peut retrouver les instances enregistrées conservées.
+
+### Licence NCore Control
+
+NCore Control et ses fichiers runtime propriétaires sont distribués sous la licence spécifique :
+
+[`LICENSE-NCORE-CONTROL.txt`](LICENSE-NCORE-CONTROL.txt)
+
+Les restrictions de cette licence s'appliquent de la même manière aux actions réalisées manuellement ou au moyen d'IA/AI, assistants de code, agents, générateurs de code ou outils automatisés.
+
+Les composants tiers restent soumis à leurs propres licences. Voir [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) et les notices intégrées au runtime distribué.
 
 ## NCore Framework
 
-**NCore Framework** est un socle RP modulaire conçu pour réunir les systèmes essentiels d’un serveur autour d’une architecture cohérente, optimisée et extensible.
+**NCore Framework** est un framework RP modulaire conçu pour NANOS / nanos world. Il vise une architecture cohérente, performante, maintenable et extensible pour les systèmes de personnages, économie, métiers, véhicules, administration, interfaces et autres systèmes RP officiels NCore.
 
-L’écosystème NCore couvre notamment les personnages, l’apparence, les vêtements, l’inventaire, les besoins, l’économie, les métiers, les véhicules, l’administration, les interfaces et les outils communautaires.
-
-### Écosystème officiel
-
-| Script ou ensemble officiel | Rôle dans l’écosystème NCore |
-| --- | --- |
-| **NCore Police** — `ncore-police` | Métier de police : recrutement, grades, service, équipements, véhicules et interactions métier. |
-| **NCore EMS** — `ncore-ems` | Métier de secours : recrutement, grades, service, matériel médical, soins et transport des patients. |
-| **NCore Jobs** — `ncore-jobs` | Gestion commune des emplois, candidatures, recrutement, grades et prises de service. |
-| **Identité et personnage** — `ncore-identity`, `ncore-character-creator`, `ncore-appearance`, `ncore-character-select`, `ncore-character-spawn` | Création de l’identité RP, apparence, sélection du personnage et entrée dans le monde. |
-| **NCore Clothing** — `ncore-clothing` | Tenues, vêtements, vestiaires et boutiques. |
-| **NCore Inventory** — `ncore-inventory` | Inventaire, objets, équipements, rangements, transferts et utilisation des consommables. |
-| **NCore Needs** — `ncore-needs` | Gestion de la faim, de la soif et des besoins configurables. |
-| **NCore Health / Skills** — `ncore-health`, `ncore-skills` | États médicaux et progression des compétences. |
-| **NCore Currency / Banking** — `ncore-currency`, `ncore-banking` | Monnaie RP, comptes bancaires, dépôts, retraits, virements et historique. |
-| **NCore Shops** — `ncore-shops` | Commerces et points de vente configurables. |
-| **Billing / Documents / Licenses** — `ncore-billing`, `ncore-documents`, `ncore-licenses` | Facturation, documents RP et licences. |
-| **Vehicles / Garages** — `ncore-vehicles`, `ncore-garages` | Véhicules, clés, rangements et garages. |
-| **UI / HUD / Notifications** — `ncore-ui`, `ncore-hud`, `ncore-notifications` | Interfaces, HUD et notifications cohérentes avec l’identité visuelle NCore. |
-| **Administration** — `ncore-admin`, `ncore-admission` | Administration, permissions, modération, admission et gestion des bannissements. |
-| **NCore Loading Screen** — `ncore-loading-screen` | Écran de chargement officiel NCore Framework. |
-
-### Profils NCore
-
-Le Framework est conçu autour des profils **NCore Lua**, **NCore Unreal** et **NCore Extended**, avec un socle commun et des composants compatibles sélectionnables selon les besoins du serveur.
+NCore Framework est développé séparément de NCore Control. La distribution NCore Control V1.0.0 ne donne pas accès au code source privé de NCore Framework et n'active pas encore son installation automatique.
 
 ## Versions et communauté
 
-Les versions officielles, mises à jour et notes de version sont publiées dans les **[Releases officielles](https://github.com/boubeur/ncore-framework/releases)**.
+Les versions officielles de NCore Control et, lorsqu'elles sont publiées, les distributions officielles NCore sont disponibles dans les **[Releases officielles](https://github.com/boubeur/ncore-framework/releases)**.
 
-Rejoignez le **[Discord officiel NCore Framework](https://discord.gg/Ey4dn4Cbqj)** pour suivre les annonces et échanger avec la communauté.
+Rejoignez le **[Discord officiel NCore Framework](https://discord.gg/Ey4dn4Cbqj)** pour les annonces, changelogs publics et support communautaire.
 
 ---
 

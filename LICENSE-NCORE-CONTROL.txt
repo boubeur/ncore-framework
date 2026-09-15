@@ -1,0 +1,41 @@
+NCore Control — Proprietary Use License
+
+Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
+
+This license applies only to an official NCore Control distribution expressly released by Gosse Nicolas (Boubeur). It does not grant access to, or rights in, the private NCore development repositories, NCore Framework source code, internal documentation, GDD, build systems, development tooling, or other materials not included in the official distribution.
+
+1. Limited right to use
+Subject to compliance with this license, the lawful recipient of an official NCore Control distribution is granted a limited, non-exclusive, non-transferable right to install and execute the unmodified official NCore Control binaries and bundled runtime files on systems they control solely for the purpose of installing, configuring, starting, stopping, updating, or administering their own supported NANOS/nanos world server installations through NCore Control. No ownership right is transferred.
+
+2. Restrictions
+Except where a restriction cannot lawfully be enforced under applicable mandatory law, you may not modify, adapt, translate, patch, alter, or create derivative works from NCore Control or its bundled proprietary runtime files; redistribute, republish, mirror, sublicense, rent, lease, sell, resell, or otherwise provide NCore Control to third parties outside an expressly authorized distribution channel; distribute modified copies; extract bundled proprietary runtime files for reuse outside their authorized NCore Control-managed installation; remove or alter copyright, ownership, trademark, license, integrity, or attribution notices; bypass update, integrity, authenticity, licensing, or security controls; reverse engineer, decompile, disassemble, or otherwise attempt to derive source code or non-public implementation details beyond what applicable mandatory law expressly permits; or use the NCore name, logo, or branding to represent an unofficial or modified distribution as official.
+
+These restrictions apply equally whether an act is performed manually or wholly or partly through artificial intelligence systems, AI/IA assistants, code assistants, coding agents, code generators, automated transformation tools, or similar technologies. Use of such a tool does not grant any additional right and does not create an exception to this license. A user or organization may not use a tool to perform an act that the user or organization is not authorized to perform directly, and remains responsible for ensuring that use of the tool complies with this license.
+
+3. Bundled runtime files and no source-code license
+Official NCore Control distributions may deploy proprietary runtime scripts, configuration templates or assets that are technically accessible on a supported NANOS server because they are required for operation. The recipient may execute those unmodified runtime files only as part of an authorized NCore Control-managed server installation. Their visibility, possession, extraction or technical accessibility does not grant permission to modify, adapt, reuse, redistribute, republish or create derivative works from them.
+
+This license grants no right to NCore Control private source code. NCore Framework and other NCore components not expressly included in the official NCore Control distribution remain outside this license unless separate terms state otherwise.
+
+4. Updates
+Official NCore Control updates supplied through authorized NCore channels are covered by this license unless an update is accompanied by replacement terms.
+
+5. Third-party components
+Third-party software and libraries included with or used by NCore Control remain governed by their respective licenses and terms. This license does not restrict rights that a third-party license independently grants for that third-party component.
+
+6. Ownership
+NCore Control and its original code, user interface, branding, documentation, bundled proprietary runtime files, and other original materials remain the intellectual property of Gosse Nicolas, subject to third-party rights where applicable.
+
+7. Termination
+The rights granted by this license terminate if you materially breach these terms. Upon termination you must cease use and delete unauthorized copies, subject to any rights that cannot lawfully be restricted.
+
+8. No warranty
+To the maximum extent permitted by applicable law, NCore Control is provided without warranties beyond those that cannot legally be excluded. Use remains subject to the official documentation and supported-platform requirements.
+
+9. Reservation of rights
+All rights not expressly granted by this license are reserved by Gosse Nicolas (Boubeur).
+
+Rights holder: Gosse Nicolas
+Public alias: Boubeur
+Product: NCore Control
+Copyright year: 2026

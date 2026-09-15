@@ -1,76 +1,152 @@
 <p align="center">
-  <img src="assets/branding/ncore-logo.jpg" alt="Logo officiel NCore Framework pour nanos world" width="300" height="150">
+  <img src="assets/branding/ncore-logo.jpg" alt="NCore Framework official logo for NANOS / nanos world" width="300" height="150">
 </p>
 
 <h1 align="center">NCore Framework &amp; NCore Control</h1>
 
-<p align="center"><strong>Un écosystème modulaire pour installer, gérer et développer des serveurs RP sur NANOS / nanos world.</strong></p>
+<p align="center"><strong>Modular tools and framework components for NANOS / nanos world servers.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/boubeur/ncore-framework/releases">Releases officielles</a> ·
-  <a href="https://discord.gg/Ey4dn4Cbqj">Discord officiel</a> ·
-  <a href="LICENSE.md">Mentions de droits</a>
+  <a href="#english">English</a> ·
+  <a href="#français">Français</a>
 </p>
 
-## NCore Control 1.0.0
+<p align="center">
+  <a href="https://github.com/boubeur/ncore-framework/releases">Official releases</a> ·
+  <a href="https://discord.gg/Ey4dn4Cbqj">Official Discord</a> ·
+  <a href="LICENSE.md">Rights notice</a>
+</p>
 
-**NCore Control** est l'application Windows officielle NCore destinée à installer et gérer des serveurs NANOS / nanos world.
+---
 
-La version **1.0.0** constitue la première version publique de NCore Control. Les binaires officiels sont distribués exclusivement via les **Releases officielles** de ce dépôt.
+## English
 
-### Installation
+### NCore Control 1.0.0
+
+**NCore Control** is the official NCore Windows application for installing and managing NANOS / nanos world servers.
+
+Version **1.0.0** is the first public release of NCore Control. Official binaries are distributed through this repository's **Official releases**.
+
+#### Installation
+
+From release `control-v1.0.0`, download:
+
+`NCore-Control-Setup-1.0.0.exe`
+
+Then double-click the installer. No manual extraction of the update ZIP is required.
+
+NCore Control installs for the current Windows user, creates the `NCore Control` desktop shortcut, and registers itself in Windows Installed apps.
+
+#### Features available in 1.0.0
+
+- install a standard NANOS / nanos world server;
+- manage multiple independent server instances;
+- start and stop servers;
+- create a dedicated desktop shortcut for each managed server;
+- remove a managed server and its shortcut in a targeted way;
+- manage NCore Control updates;
+- use a visible Windows installation and uninstallation experience;
+- preserve existing NANOS servers and their data when NCore Control is uninstalled.
+
+Automatic installation of **NCore Framework** from NCore Control is **not enabled in this first public release**.
+
+#### Uninstallation
+
+Use:
+
+`Windows Settings > Apps > Installed apps > NCore Control > Uninstall`
+
+Uninstalling NCore Control removes the application and its global desktop shortcut. It does **not** remove existing NANOS servers, their files, configuration, databases, packages, or server data. A later reinstallation can recover the preserved managed-instance registry.
+
+#### NCore Control license
+
+NCore Control and its proprietary bundled runtime files are distributed under:
+
+[`LICENSE-NCORE-CONTROL.txt`](LICENSE-NCORE-CONTROL.txt)
+
+The English license text is authoritative. A French translation is included in the same file for convenience.
+
+The same restrictions apply whether an action is performed manually or through AI/IA systems, code assistants, coding agents, code generators, automated transformation tools, or similar technologies.
+
+Third-party components remain subject to their own licenses. See [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) and the third-party license files included in the runtime.
+
+### NCore Framework
+
+**NCore Framework** is a modular RP framework designed for NANOS / nanos world. It is intended to provide a coherent, performant, maintainable, and extensible architecture for characters, economy, jobs, vehicles, administration, UI, and other official NCore RP systems.
+
+NCore Framework is developed separately from NCore Control. The NCore Control 1.0.0 distribution does not provide access to private NCore Framework source code and does not yet enable automatic Framework installation.
+
+### Versions and community
+
+Official NCore Control releases and future authorized NCore distributions are available in the **[Official releases](https://github.com/boubeur/ncore-framework/releases)**.
+
+Join the **[NCore Framework official Discord](https://discord.gg/Ey4dn4Cbqj)** for public announcements, changelogs, and community support.
+
+---
+
+## Français
+
+### NCore Control 1.0.0
+
+**NCore Control** est l’application Windows officielle NCore destinée à installer et gérer des serveurs NANOS / nanos world.
+
+La version **1.0.0** constitue la première version publique de NCore Control. Les binaires officiels sont distribués via les **Releases officielles** de ce dépôt.
+
+#### Installation
 
 Dans la release `control-v1.0.0`, téléchargez :
 
 `NCore-Control-Setup-1.0.0.exe`
 
-Puis double-cliquez sur l'installateur. Aucune extraction manuelle du package de mise à jour n'est nécessaire.
+Puis double-cliquez sur l’installateur. Aucune extraction manuelle du ZIP de mise à jour n’est nécessaire.
 
-NCore Control s'installe dans le profil Windows de l'utilisateur, crée un raccourci `NCore Control` sur le Bureau et s'enregistre dans **Applications installées** de Windows.
+NCore Control s’installe pour l’utilisateur Windows courant, crée le raccourci Bureau `NCore Control` et s’enregistre dans les Applications installées de Windows.
 
-### Fonctions disponibles dans la V1.0.0
+#### Fonctions disponibles dans la version 1.0.0
 
-- installation d'un serveur NANOS / nanos world standard ;
-- gestion de plusieurs serveurs indépendants ;
-- démarrage et arrêt des serveurs ;
-- création d'un raccourci Bureau propre à chaque serveur ;
-- suppression ciblée d'un serveur et de son raccourci ;
-- gestion de la mise à jour de NCore Control ;
-- désinstallation de NCore Control depuis Windows ;
-- conservation des serveurs NANOS existants lors de la désinstallation de NCore Control.
+- installer un serveur NANOS / nanos world standard ;
+- gérer plusieurs instances serveur indépendantes ;
+- démarrer et arrêter les serveurs ;
+- créer un raccourci Bureau dédié pour chaque serveur géré ;
+- supprimer de manière ciblée un serveur géré et son raccourci ;
+- gérer les mises à jour de NCore Control ;
+- utiliser une installation et une désinstallation Windows avec interface visible ;
+- conserver les serveurs NANOS existants et leurs données lors de la désinstallation de NCore Control.
 
-L'installation automatique de **NCore Framework** depuis NCore Control n'est pas activée dans cette première version publique.
+L’installation automatique de **NCore Framework** depuis NCore Control **n’est pas activée dans cette première version publique**.
 
-### Désinstallation
+#### Désinstallation
 
 Utilisez :
 
-`Paramètres Windows > Applications installées > NCore Control > Désinstaller`
+`Paramètres Windows > Applications > Applications installées > NCore Control > Désinstaller`
 
-La désinstallation retire NCore Control et son raccourci global. Elle ne supprime pas automatiquement les serveurs NANOS existants ni leurs données. Une réinstallation ultérieure peut retrouver les instances enregistrées conservées.
+La désinstallation de NCore Control retire l’application et son raccourci Bureau global. Elle ne supprime **pas** les serveurs NANOS existants, leurs fichiers, configurations, bases de données, packages ou données serveur. Une réinstallation ultérieure peut récupérer le registre conservé des instances gérées.
 
-### Licence NCore Control
+#### Licence NCore Control
 
-NCore Control et ses fichiers runtime propriétaires sont distribués sous la licence spécifique :
+NCore Control et ses fichiers runtime propriétaires inclus sont distribués sous :
 
 [`LICENSE-NCORE-CONTROL.txt`](LICENSE-NCORE-CONTROL.txt)
 
-Les restrictions de cette licence s'appliquent de la même manière aux actions réalisées manuellement ou au moyen d'IA/AI, assistants de code, agents, générateurs de code ou outils automatisés.
+Le texte anglais de la licence constitue la version de référence. Une traduction française informative est incluse dans le même fichier.
 
-Les composants tiers restent soumis à leurs propres licences. Voir [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) et les notices intégrées au runtime distribué.
+Les mêmes restrictions s’appliquent qu’une action soit réalisée manuellement ou au moyen de systèmes IA/AI, assistants de code, agents de codage, générateurs de code, outils de transformation automatisée ou technologies similaires.
 
-## NCore Framework
+Les composants tiers restent soumis à leurs propres licences. Voir [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) et les fichiers de licence tiers inclus dans le runtime.
 
-**NCore Framework** est un framework RP modulaire conçu pour NANOS / nanos world. Il vise une architecture cohérente, performante, maintenable et extensible pour les systèmes de personnages, économie, métiers, véhicules, administration, interfaces et autres systèmes RP officiels NCore.
+### NCore Framework
 
-NCore Framework est développé séparément de NCore Control. La distribution NCore Control V1.0.0 ne donne pas accès au code source privé de NCore Framework et n'active pas encore son installation automatique.
+**NCore Framework** est un framework RP modulaire conçu pour NANOS / nanos world. Il vise une architecture cohérente, performante, maintenable et extensible pour les personnages, l’économie, les métiers, les véhicules, l’administration, les interfaces et les autres systèmes RP officiels NCore.
 
-## Versions et communauté
+NCore Framework est développé séparément de NCore Control. La distribution NCore Control 1.0.0 ne donne pas accès au code source privé de NCore Framework et n’active pas encore son installation automatique.
 
-Les versions officielles de NCore Control et, lorsqu'elles sont publiées, les distributions officielles NCore sont disponibles dans les **[Releases officielles](https://github.com/boubeur/ncore-framework/releases)**.
+### Versions et communauté
 
-Rejoignez le **[Discord officiel NCore Framework](https://discord.gg/Ey4dn4Cbqj)** pour les annonces, changelogs publics et support communautaire.
+Les versions officielles de NCore Control et les futures distributions NCore autorisées sont disponibles dans les **[Releases officielles](https://github.com/boubeur/ncore-framework/releases)**.
+
+Rejoignez le **[Discord officiel NCore Framework](https://discord.gg/Ey4dn4Cbqj)** pour les annonces publiques, changelogs et support communautaire.
 
 ---
 
-Copyright © 2026 Gosse Nicolas (Boubeur). Voir [LICENSE.md](LICENSE.md). Les logiciels et ressources tiers restent soumis aux droits de leurs auteurs respectifs.
+Copyright © 2026 Gosse Nicolas (Boubeur). See / Voir [LICENSE.md](LICENSE.md). Third-party software and resources remain subject to their respective rights and licenses.

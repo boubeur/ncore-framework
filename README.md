@@ -60,11 +60,15 @@ Uninstalling NCore Control removes the application and its global desktop shortc
 
 #### NCore Control license
 
-NCore Control and its proprietary bundled runtime files are distributed under:
+The historical `control-v1.0.0` release remains governed by the license actually bundled with that release. A repository copy is archived at [`licenses/NCore-Control-1.0.0-LICENSE.txt`](licenses/NCore-Control-1.0.0-LICENSE.txt).
+
+Future NCore Control releases that expressly include **NCore Proprietary Product License 1.0** are governed by:
 
 [`LICENSE-NCORE-CONTROL.txt`](LICENSE-NCORE-CONTROL.txt)
 
-The English license text is authoritative. A French translation is included in the same file for convenience.
+The product license permits installation and use of NCore Control while preserving separately licensed rights of NCore packages installed or managed by Control.
+
+French and English license sections are intended to express the same rights and restrictions. Neither is merely an informative translation.
 
 The same restrictions apply whether an action is performed manually or through AI/IA systems, code assistants, coding agents, code generators, automated transformation tools, or similar technologies.
 
@@ -125,11 +129,15 @@ La désinstallation de NCore Control retire l’application et son raccourci Bur
 
 #### Licence NCore Control
 
-NCore Control et ses fichiers runtime propriétaires inclus sont distribués sous :
+La release historique `control-v1.0.0` reste régie par la licence réellement embarquée avec cette release. Une copie de référence est archivée dans [`licenses/NCore-Control-1.0.0-LICENSE.txt`](licenses/NCore-Control-1.0.0-LICENSE.txt).
+
+Les futures releases NCore Control qui embarquent expressément **NCore Proprietary Product License 1.0** sont régies par :
 
 [`LICENSE-NCORE-CONTROL.txt`](LICENSE-NCORE-CONTROL.txt)
 
-Le texte anglais de la licence constitue la version de référence. Une traduction française informative est incluse dans le même fichier.
+La licence produit autorise l’installation et l’utilisation de NCore Control tout en préservant les droits accordés séparément par les licences des packages NCore installés ou gérés par Control.
+
+Les sections française et anglaise de la licence sont destinées à exprimer les mêmes droits et restrictions. Aucune des deux n’est une simple traduction informative.
 
 Les mêmes restrictions s’appliquent qu’une action soit réalisée manuellement ou au moyen de systèmes IA/AI, assistants de code, agents de codage, générateurs de code, outils de transformation automatisée ou technologies similaires.
 
@@ -150,3 +158,18 @@ Rejoignez le **[Discord officiel NCore Framework](https://discord.gg/Ey4dn4Cbqj)
 ---
 
 Copyright © 2026 Gosse Nicolas (Boubeur). See / Voir [LICENSE.md](LICENSE.md). Third-party software and resources remain subject to their respective rights and licenses.
+
+
+---
+
+## Public licensing map / Carte des licences publiques
+
+| Scope / Périmètre | License / Licence |
+|---|---|
+| Public repository documentation and presentation / Documentation et présentation du dépôt public | [`LICENSE.md`](LICENSE.md) |
+| NCore Control future releases expressly adopting the current product license / Futures releases Control adoptant expressément la licence produit actuelle | [`LICENSE-NCORE-CONTROL.txt`](LICENSE-NCORE-CONTROL.txt) |
+| Historical NCore Control 1.0.0 / NCore Control 1.0.0 historique | [`licenses/NCore-Control-1.0.0-LICENSE.txt`](licenses/NCore-Control-1.0.0-LICENSE.txt) |
+| NCore scripts/packages / Scripts/packages NCore | License included with each package / Licence incluse avec chaque package |
+| Third-party components / Composants tiers | [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) and bundled third-party terms / et conditions tierces embarquées |
+
+See / Voir [`NOTICE.md`](NOTICE.md) and / et [`COPYRIGHT.md`](COPYRIGHT.md).

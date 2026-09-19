@@ -8,6 +8,18 @@
 
 <h1 align="center">NCore Framework &amp; NCore Control</h1>
 
+<p align="center">
+  <strong>Official NCore public organization:</strong>
+  <a href="https://github.com/ncore-framework-official">ncore-framework-official</a>
+  ·
+  <a href="https://github.com/ncore-framework-official/ncore-control">NCore Control product page</a>
+</p>
+
+> This repository remains the historical public distribution and compatibility endpoint for NCore Control 1.0.0 so existing release and update URLs remain valid.
+>
+> Ce dépôt reste le point public historique de distribution et de compatibilité de NCore Control 1.0.0 afin de préserver les URL de release et de mise à jour déjà distribuées.
+
+
 <p align="center"><strong>Modular tools and framework components for NANOS / nanos world servers.</strong></p>
 
 <p align="center">
@@ -69,7 +81,9 @@ NCore Framework is developed separately from NCore Control. Public packages and 
 
 ### Official channels
 
-- **Releases:** https://github.com/boubeur/ncore-framework/releases
+- **Official organization:** https://github.com/ncore-framework-official
+- **NCore Control product page:** https://github.com/ncore-framework-official/ncore-control
+- **Historical/current Control releases:** https://github.com/boubeur/ncore-framework/releases
 - **Discord:** https://discord.gg/Ey4dn4Cbqj
 
 ### Support NCore Framework
@@ -139,7 +153,9 @@ NCore Framework est développé séparément de NCore Control. Les packages et r
 
 ### Canaux officiels
 
-- **Releases :** https://github.com/boubeur/ncore-framework/releases
+- **Organisation officielle :** https://github.com/ncore-framework-official
+- **Page produit NCore Control :** https://github.com/ncore-framework-official/ncore-control
+- **Releases Control historiques/actuelles :** https://github.com/boubeur/ncore-framework/releases
 - **Discord :** https://discord.gg/Ey4dn4Cbqj
 
 ### Soutenir NCore Framework

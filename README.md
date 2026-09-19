@@ -173,3 +173,22 @@ Copyright © 2026 Gosse Nicolas (Boubeur). See / Voir [LICENSE.md](LICENSE.md). 
 | Third-party components / Composants tiers | [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) and bundled third-party terms / et conditions tierces embarquées |
 
 See / Voir [`NOTICE.md`](NOTICE.md) and / et [`COPYRIGHT.md`](COPYRIGHT.md).
+
+
+### In practice / En pratique
+
+**NCore Control (product / produit)**
+
+- authorized / autorisé: install, run, use documented settings / installer, exécuter, utiliser les réglages documentés;
+- not granted / non accordé: redistribution, resale, mirrors, publication of private source, modification of proprietary Control binaries / redistribution, revente, mirrors, publication du source privé, modification des binaires propriétaires Control;
+- mandatory legal rights remain preserved / les droits impératifs prévus par la loi restent préservés;
+- future releases adopting the current license will require explicit license acceptance before installation / les futures releases adoptant la licence actuelle demanderont une acceptation explicite avant installation.
+
+**NCore scripts/packages**
+
+When a package includes **NCore Proprietary Package License 1.0**, an authorized user may install, run, configure and privately modify that package for their own server, but may not redistribute, resell, mirror or republish it without written authorization.
+
+Lorsqu'un package inclut **NCore Proprietary Package License 1.0**, l'utilisateur autorisé peut installer, exécuter, configurer et modifier ce package en privé pour son propre serveur, mais ne peut pas le redistribuer, le revendre, le mirrorer ou le republier sans autorisation écrite.
+
+A product license never removes rights separately granted by a package license.  
+Une licence produit ne retire jamais les droits accordés séparément par une licence de package.

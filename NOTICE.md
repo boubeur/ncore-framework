@@ -21,6 +21,10 @@ Cette licence historique est archivée dans `licenses/NCore-Control-1.0.0-LICENS
 
 La branche `main` ne réécrit pas rétroactivement les conditions embarquées dans une ancienne release.
 
+### Acceptation dans les futures releases Control
+
+Les futures releases NCore Control qui adoptent `NCore Proprietary Product License 1.0` doivent demander une acceptation explicite avant l'installation et fournir l'accès au texte complet de la licence.
+
 ### Copies officielles
 
 Une copie NCore est officielle uniquement lorsqu'elle provient d'un canal explicitement autorisé par NCore.
@@ -49,6 +53,10 @@ Release `control-v1.0.0` retains the license distributed with its artifacts on 2
 That historical license is archived at `licenses/NCore-Control-1.0.0-LICENSE.txt`.
 
 The `main` branch does not retroactively rewrite the terms bundled with an earlier release.
+
+### Acceptance in future Control releases
+
+Future NCore Control releases adopting `NCore Proprietary Product License 1.0` must request explicit acceptance before installation and provide access to the full license text.
 
 ### Official copies
 

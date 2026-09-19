@@ -2,11 +2,11 @@
   <img src="assets/branding/ncore-logo.jpg" alt="NCore Framework official logo for NANOS / nanos world" width="300" height="150">
 </p>
 
-<h1 align="center">NCore Framework &amp; NCore Control</h1>
-
 <p align="center">
-  <img src="assets/branding/ncore-control.jpg" alt="NCore Control — official presentation image" width="800">
+  <img src="https://raw.githubusercontent.com/boubeur/ncore-framework/main/assets/branding/ncore-control.jpg" alt="NCore Control official logo" width="300" height="150">
 </p>
+
+<h1 align="center">NCore Framework &amp; NCore Control</h1>
 
 <p align="center"><strong>Modular tools and framework components for NANOS / nanos world servers.</strong></p>
 

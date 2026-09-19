@@ -4,6 +4,10 @@
 
 <h1 align="center">NCore Framework &amp; NCore Control</h1>
 
+<p align="center">
+  <img src="assets/branding/ncore-control.jpg" alt="NCore Control — official presentation image" width="1200">
+</p>
+
 <p align="center"><strong>Modular tools and framework components for NANOS / nanos world servers.</strong></p>
 
 <p align="center">

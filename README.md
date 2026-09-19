@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/boubeur/ncore-framework/main/assets/branding/ncore-control.jpg" alt="NCore Control official logo" width="300" height="150">
+  <img src="assets/branding/ncore-control.jpg" alt="NCore Control official logo" width="300" height="150">
 </p>
 
 <h1 align="center">NCore Framework &amp; NCore Control</h1>

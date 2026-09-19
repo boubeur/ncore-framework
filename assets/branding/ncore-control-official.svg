@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+    <stop offset="0" stop-color="#171a1d"/>
+    <stop offset="0.58" stop-color="#080a0b"/>
+    <stop offset="1" stop-color="#020303"/>
+  </radialGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="0.20" stop-color="#e7e8ea"/>
+    <stop offset="0.48" stop-color="#92969b"/>
+    <stop offset="0.70" stop-color="#f6f6f7"/>
+    <stop offset="1" stop-color="#74787d"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="300" fill="url(#bg)"/>
+<g stroke="#212529" stroke-width="2" fill="none" opacity="0.32">
+  <path d="M0 55 L70 41 L128 58 L178 45 L224 62"/>
+  <path d="M600 53 L538 39 L481 57 L432 44 L391 60"/>
+  <path d="M32 260 L96 239 L153 249 L214 231"/>
+  <path d="M568 262 L508 243 L455 251 L397 234"/>
+</g>
+<g opacity="0.75" transform="translate(0,4)">
+  <g stroke="#000" stroke-width="12" stroke-linecap="round">
+    <line x1="225" y1="66" x2="375" y2="66"/>
+    <line x1="225" y1="95" x2="375" y2="95"/>
+    <line x1="225" y1="124" x2="375" y2="124"/>
+  </g>
+  <g fill="#000">
+    <circle cx="282" cy="66" r="17"/>
+    <circle cx="326" cy="95" r="17"/>
+    <circle cx="270" cy="124" r="17"/>
+  </g>
+  <text x="300" y="210" text-anchor="middle" fill="#000" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="82" font-weight="900" letter-spacing="1">CONTROL</text>
+</g>
+<g stroke="#cfd1d4" stroke-width="10" stroke-linecap="round">
+  <line x1="225" y1="66" x2="375" y2="66"/>
+  <line x1="225" y1="95" x2="375" y2="95"/>
+  <line x1="225" y1="124" x2="375" y2="124"/>
+</g>
+<g fill="url(#metal)" stroke="#5b5e62" stroke-width="2">
+  <circle cx="282" cy="66" r="17"/>
+  <circle cx="326" cy="95" r="17"/>
+  <circle cx="270" cy="124" r="17"/>
+</g>
+<text x="300" y="206" text-anchor="middle" fill="url(#metal)" stroke="#55585c" stroke-width="1.2" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="82" font-weight="900" letter-spacing="1">CONTROL</text>
+<text x="300" y="243" text-anchor="middle" fill="#d4d6d8" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" letter-spacing="9">NCORE FRAMEWORK</text>
+</svg>

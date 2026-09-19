@@ -72,6 +72,13 @@ NCore Framework is developed separately from NCore Control. Public packages and 
 - **Releases:** https://github.com/boubeur/ncore-framework/releases
 - **Discord:** https://discord.gg/Ey4dn4Cbqj
 
+### Support NCore Framework
+
+NCore Framework is developed and maintained as an independent project for NANOS.  
+Your support helps fund development, documentation, testing, and project infrastructure.
+
+[![Support NCore Framework on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ncoreframework)
+
 ### Legal
 
 NCore software is proprietary unless a specific component states otherwise.
@@ -134,6 +141,13 @@ NCore Framework est développé séparément de NCore Control. Les packages et r
 
 - **Releases :** https://github.com/boubeur/ncore-framework/releases
 - **Discord :** https://discord.gg/Ey4dn4Cbqj
+
+### Soutenir NCore Framework
+
+NCore Framework est développé et maintenu comme un projet indépendant pour NANOS.  
+Votre soutien contribue au développement, à la documentation, aux tests et à l'infrastructure du projet.
+
+[![Support NCore Framework on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ncoreframework)
 
 ### Mentions juridiques
 

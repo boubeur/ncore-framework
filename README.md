@@ -15,9 +15,11 @@
   <a href="https://github.com/ncore-framework-official/ncore-control">NCore Control product page</a>
 </p>
 
-> This repository remains the historical public distribution and compatibility endpoint for NCore Control 1.0.0 so existing release and update URLs remain valid.
+> **Historical compatibility endpoint only.** No new NCore public product, package or release is established under the personal `boubeur` namespace. New official public NCore publications belong to **[ncore-framework-official](https://github.com/ncore-framework-official)**.
 >
-> Ce dépôt reste le point public historique de distribution et de compatibilité de NCore Control 1.0.0 afin de préserver les URL de release et de mise à jour déjà distribuées.
+> **Point de compatibilité historique uniquement.** Aucun nouveau produit, package ou release public NCore n'est établi sous l'espace personnel `boubeur`. Les nouvelles publications publiques officielles NCore appartiennent à **[ncore-framework-official](https://github.com/ncore-framework-official)**.
+>
+> This repository remains public only so previously distributed NCore Control 1.0.0 release/update URLs continue to work.
 
 
 <p align="center"><strong>Modular tools and framework components for NANOS / nanos world servers.</strong></p>

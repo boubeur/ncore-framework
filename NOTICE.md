@@ -4,7 +4,7 @@ Copyright © 2026 Gosse Nicolas (Boubeur). All Rights Reserved.
 
 ## Français
 
-Ce dépôt est le point public historique de distribution et de compatibilité de NCore Control 1.0.0. L'organisation publique officielle de l'écosystème NCore est désormais `ncore-framework-official` : https://github.com/ncore-framework-official. Les URL historiques de release et de mise à jour restent conservées ici afin de ne pas casser les installations et liens déjà distribués.
+Ce dépôt est uniquement le point public historique de distribution et de compatibilité de NCore Control 1.0.0. Aucune nouvelle publication publique NCore ne doit être établie sous l'espace personnel `boubeur`. L'organisation publique officielle et exclusive de l'écosystème NCore est `ncore-framework-official` : https://github.com/ncore-framework-official. Les URL historiques de release et de mise à jour restent conservées ici afin de ne pas casser les installations et liens déjà distribués.
 
 ### Modèles de licence
 
@@ -37,7 +37,7 @@ Les composants tiers conservent leurs propres licences. Voir `THIRD-PARTY-NOTICE
 
 ## English
 
-This repository is the historical public distribution and compatibility endpoint for NCore Control 1.0.0. The official public NCore ecosystem organization is now `ncore-framework-official`: https://github.com/ncore-framework-official. Historical release and update URLs remain here so existing installations and distributed links are not broken.
+This repository is only the historical public distribution and compatibility endpoint for NCore Control 1.0.0. No new public NCore publication may be established under the personal `boubeur` namespace. The official and exclusive public NCore ecosystem organization is `ncore-framework-official`: https://github.com/ncore-framework-official. Historical release and update URLs remain here so existing installations and distributed links are not broken.
 
 ### License models
 
